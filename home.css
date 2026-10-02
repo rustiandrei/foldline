@@ -163,20 +163,9 @@ h1, h2, h3 {
   margin-top: 32px;
 }
 
-.store {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 10px 22px;
-  border-radius: 14px;
-  background: #000;
-  color: #fff;
-  line-height: 1.15;
-  text-decoration: none;
-  box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.45);
-}
-.store small { font-size: 0.72rem; opacity: 0.8; letter-spacing: 0.02em; }
-.store strong { font-size: 1.15rem; }
+/* Apple's "Download on the App Store" badge, as Apple supplies it: never redrawn, at least 40px tall. */
+.badge { display: inline-block; line-height: 0; border-radius: 9px; box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.45); }
+.badge img { display: block; width: auto; height: 50px; }
 
 .textlink { color: #fff; font-weight: 600; text-decoration: none; }
 .textlink:hover { text-decoration: underline; }
